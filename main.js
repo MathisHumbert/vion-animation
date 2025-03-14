@@ -774,6 +774,8 @@ const animateShop = () => {
  */
 gsap.set(document.documentElement, { autoAlpha: 0 });
 
+console.log(window.location.pathname);
+
 document.addEventListener('DOMContentLoaded', () => {
   gsap.to(document.documentElement, {
     autoAlpha: 1,
